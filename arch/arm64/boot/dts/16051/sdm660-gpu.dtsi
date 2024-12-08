@@ -120,7 +120,7 @@
 
 		/* Cx ipeak limit supprt */
 		qcom,gpu-cx-ipeak = <&cx_ipeak_lm 1>;
-		qcom,gpu-cx-ipeak-clk = <700000000>;
+		qcom,gpu-cx-ipeak-clk = <750000000>;
 
 		/* CPU latency parameter */
 		qcom,pm-qos-active-latency = <518>;
@@ -140,6 +140,7 @@
 		qcom,ca-target-pwrlevel = <4>;
 
 		qcom,gpu-speed-bin = <0x41a0 0x1fe00000 21>;
+		qcom,force-sdm660-a1-gpu-speedbin;
 
 		/* GPU Mempools */
 		qcom,gpu-mempools {
